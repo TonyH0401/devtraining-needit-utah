@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="bbf5e98d93847210176f70d19dba10b3" extends="task" label="NeedMore" max_length="40" name="x_58872_needit_needmore" type="collection">
+        <element label="Yolo Address 2" max_length="100" name="u_yolo_address_2" type="string"/>
+        <element default="Try sushi in the new Tokyo Deli place" label="Yolo Tokyo Deli Field" mandatory="true" max_length="200" name="u_tokyo_deli" type="string"/>
+        <element label="Yolo Address 1" max_length="100" name="u_yolo_address_1" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element choice="3" label="Yolo Boolean Field" max_length="10" name="yolo_boolean" type="boolean">
+            <choice>
+                <element inactive_on_update="false" label="true" value="true"/>
+            </choice>
+        </element>
+        <element default="Ho Chi Minh City" label="Yolo Address" max_length="100" name="u_yolo_address" type="string"/>
+        <element label="When needed" mandatory="true" max_length="5000" name="u_when_needed" type="glide_date_time"/>
+        <element choice="1" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" value="facilities"/>
+                <element inactive_on_update="false" label="Legal" value="legal"/>
+                <element inactive_on_update="false" label="Your Department Choice" value="your_choice"/>
+            </choice>
+        </element>
+        <element choice="3" default="legal1" display="true" label="What needed" mandatory="true" max_length="40" name="u_what_needed" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources 1" value="hr1"/>
+                <element inactive_on_update="false" label="Your Department Choice 1" value="your_choice1"/>
+                <element inactive_on_update="false" label="Legal 1" value="legal1"/>
+                <element inactive_on_update="false" label="Facilities 2" value="facilities2"/>
+                <element inactive_on_update="false" label="Facilities 1" value="facilities1"/>
+                <element inactive_on_update="false" label="Legal 2" value="legal2"/>
+                <element inactive_on_update="false" label="Human Resources 2" value="hr2"/>
+                <element inactive_on_update="false" label="Your Department Choice 2" value="your_choice2"/>
+            </choice>
+        </element>
+    </element>
+</database>
