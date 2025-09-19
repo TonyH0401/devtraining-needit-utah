@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Access Control Rule for needmore_user&#13;
+- See table fields</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_58872_needit_needmore.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-18 10:19:02</sys_created_on>
+        <sys_id>bdbcdd3193c07610176f70d19dba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needmore.*</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_bdbcdd3193c07610176f70d19dba1052</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-18 10:19:02</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>19560170fbf822940921f633beefdcc8</instance_id>
+        <instance_name>dev319060</instance_name>
+        <name>sys_security_acl_bdbcdd3193c07610176f70d19dba1052</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Access Control Rule for needmore_user&#13;
+- See table fields</description><local_or_existing>Local</local_or_existing><name>x_58872_needit_needmore.*</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-18 10:19:02</sys_created_on><sys_id>bdbcdd3193c07610176f70d19dba1052</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_needmore.*</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_security_acl_bdbcdd3193c07610176f70d19dba1052</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-18 10:19:02</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1090932572</payload_hash>
+        <record_name>x_58872_needit_needmore.*</record_name>
+        <reverted_from/>
+        <source>a8ea110193847210176f70d19dba1004</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-18 10:19:02</sys_created_on>
+        <sys_id>108dd97193c07610176f70d19dba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1995c55aadd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-18 10:19:02</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>148dd971e7c076109b106ce25d37c633</update_guid>
+        <update_guid_history>148dd971e7c076109b106ce25d37c633:1090932572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-18 10:25:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>09b45ebf6ed5497c8db968bc5717b401</sys_id>
+        <sys_metadata>bdbcdd3193c07610176f70d19dba1052</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needmore.*</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needmore">dcf6a18193c47210176f70d19dba1042</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bdbcdd3193c07610176f70d19dba1052</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bdbcdd3193c07610176f70d19dba1052">108dd97193c07610176f70d19dba1034</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-18 10:25:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
